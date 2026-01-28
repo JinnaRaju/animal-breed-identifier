@@ -4,12 +4,9 @@
   "installCommand": "npm install",
   "framework": "vite",
   "outputDirectory": "dist",
-  "env": [
-    {
-      "key": "GEMINI_API_KEY",
-      "description": "API key for Google Gemini service"
-    }
-  ],
+  "env": {
+    "GEMINI_API_KEY": "@gemini_api_key"
+  },
   "rewrites": [
     {
       "source": "/(.*)",
